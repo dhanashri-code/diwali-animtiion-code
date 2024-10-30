@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy-Diwali</title>
+
+    <!-- CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Irish+Grover&display=swap" rel="stylesheet">
+
+</head>
+<body onclick="audio.play()">
+    <!-- Canvas for Firecraker-->
+    <canvas id='myCanvas' width='1200' height='800'></canvas>
+
+    <div class="circle">
+          <h1>Happy <br>
+              <span>Diwali</span>
+          </h1>
+
+          <div class="diya-container">
+		          <div class="diya">
+			            <div class="line-1"></div>
+			            <div class="line-2"></div>
+			            <div class="dots"></div>
+		          </div>
+
+		          <div class="inside">
+			            <div class="flame"></div>
+                  <div class="flame1"></div>
+		          </div>
+	        </div>
+   
+    </div>
+
+    <header>
+        <div class="content">
+            <p>Let's Countdown to Diwali</p>
+        </div>
+        
+        <div id="countdown">  
+            <li><span id="d">77</span><br>Days</li>
+            <li><span id="hr">11</span><br>Hours</li>
+            <li><span id="min">51</span><br>Min</li>
+            <li><span id="sec">24</span><br>Sec</li>
+            
+        </div>
+    </header>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
